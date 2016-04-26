@@ -42,5 +42,5 @@ Este tipo de campo genera un array con todos los subcampos indicados, en este ca
 
 El otro tipo de imagen para los listados es normal, con el campo de tipo media.
 
-
+En el config.xml tengo 2 campos, uno que pregunta si se generán thumbnails y el otro el ancho, para poder configurarlo facilmente
 
