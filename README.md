@@ -44,3 +44,12 @@ El otro tipo de imagen para los listados es normal, con el campo de tipo media.
 
 En el config.xml tengo 2 campos, uno que pregunta si se generán thumbnails y el otro el ancho, para poder configurarlo facilmente
 
+      <field name="generaThumbs" type="list" default="0" label="Genera Thumbnails" description="Genera imagenes miniatura de las imagenes originales de productos">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+
+        <field name="anchoThumbs" type="text" default="200" label="Ancho de thumb" description="Establece el ancho de las imagenes miniatura" 
+            filter="int" />
+
+
